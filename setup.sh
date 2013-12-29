@@ -4,7 +4,7 @@
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
 # Fix this on linux 
-if [ `uname` = "Linux"]; then
+if [ `uname` = "Linux" ]; then
     chsh -s /bin/zsh
 fi
 
