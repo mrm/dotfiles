@@ -24,6 +24,7 @@ git clone https://github.com/scrooloose/nerdtree.git
 cd -
 
 rm -f $TD/mrm-*/setup.sh
-mv $TD/mrm-*/* .
+
+cd $TD/mrm-* && tar -cf - . | (cd; tar -xvf -)
 
 rm -rf $TD
