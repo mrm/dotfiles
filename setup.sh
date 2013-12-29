@@ -10,7 +10,7 @@ fi
 
 TD=`mktemp -d XXXXXX`
 
-curl -L https://github.com/jcs/dotfiles/tarball/master | tar -C $TD -xzf 
+curl -L https://github.com/mrm/dotfiles/tarball/master | tar -C $TD -xzf 
 
 cd $TD/mrm-*/.vim/bundle
 
