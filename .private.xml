@@ -26,9 +26,9 @@
       <appendix>Command+2 to Launch iTerm</appendix>
       <appendix>Command+3 to Launch SublimeText</appendix>
       <identifier>remap.vk_open_apps</identifier>
-      <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::COMMAND_L, KeyCode::VK_OPEN_URL_APP_Chrome</autogen>
-      <autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::COMMAND_L, KeyCode::VK_OPEN_URL_APP_iTerm</autogen>
-      <autogen>__KeyToKey__ KeyCode::KEY_3, ModifierFlag::COMMAND_L, KeyCode::VK_OPEN_URL_APP_SublimeText</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_Chrome</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_iTerm</autogen>
+      <autogen>__KeyToKey__ KeyCode::KEY_3, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_SublimeText</autogen>
     </item>
 
 </root>                      
